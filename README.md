@@ -7,7 +7,7 @@
 
 `1º semestre de 2023 - Eixo 3`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Aplicativo móvel para registro de pomodoros.
 
 ## Integrantes
 - Ana Carolina do Carmo Vaz
