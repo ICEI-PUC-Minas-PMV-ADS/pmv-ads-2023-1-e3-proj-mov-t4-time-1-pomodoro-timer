@@ -11,11 +11,11 @@ Aplicativo móvel para registro de pomodoros.
 
 ## Integrantes
 - Ana Carolina do Carmo Vaz
-- -Lucas Damasceno Pinto
+- Lucas Damasceno Pinto
 - Jefferson Rodrigues Lacerda
 - Ricardo Peixoto da Silva
 - Jaynne Polyana Nunes
-- Francisco Costa Ribbeiro
+- Francisco Costa Ribeiro
 
 ## Orientador
 
