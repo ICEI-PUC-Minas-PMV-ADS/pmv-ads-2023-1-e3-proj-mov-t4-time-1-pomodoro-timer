@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# POMODORO TIMER
 
-`CURSO`
 
-`DISCIPLINA`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`SEMESTRE`
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio - Turma 4 -`
+
+`1º semestre de 2023 - Eixo 3`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
-
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+- Ana Carolina do Carmo Vaz
+- -Lucas Damasceno Pinto
+- Jefferson Rodrigues Lacerda
+- Ricardo Peixoto da Silva
+- Jaynne Polyana Nunes
 
 ## Orientador
 
-* Nome completo do professor 1
+<a href="https://github.com/mateuscurcino"> **Mateus Curcino de Lima** </a>
 
 ## Instruções de utilização
 
