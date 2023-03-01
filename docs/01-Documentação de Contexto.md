@@ -1,4 +1,5 @@
 # Introdução
+
 Lidar e controlar o tempo sempre foi difícil para a maioria das pessoas. Buscando melhorar a utilização do tempo e aumentar a produtividade muitas pessoas utilizam da técnica pomodoro para isso. A técnica, aliás, foi desenvolvida no final dos anos 80 pelo italiano Francesco Cirillo. Utilizando um timer que tinha o formato de um tomate (pomodoro, em italiano) e girava durante 25 minutos, emitindo um barulho forte ao final desse prazo. Nesse meio tempo, Cirillo se concentrava nas suas tarefas sem interrupções, mantendo-se 100% focado.
 
 Primeiramente, você deve fazer uma lista de tarefas a serem desempenhadas durante o dia. Depois, basta dividir seu tempo em períodos de 25 minutos (chamados “pomodoros”) e trabalhar ininterruptamente em suas tarefas nesses períodos.
@@ -9,10 +10,11 @@ Atualmente temos várias distrações que podem tirar nossa concentração enqua
 
 
 ## Problema
-Atualmente é comum as pessoas sofrerem de algo conhecido por procrastinação, ou seja, deixar para depois, para outro momento. No geral é um comportamento corriqueiro muitas vezes considerado normal no que se diz respeito à prioridade de tarefas. Pela definição do dicionário procrastinação é o diferimento ou adiamento de uma ação, de forma geral, o cérebro humano se rende muito facilmente a esta maneira de se comportar pois tem sua preferência pela recompensa imediata, lutando com tarefas que embora se saiba que devem ser realizadas só prometem vantagens no futuro, para esforços que devem ser feitos agora.
-Para a pessoa que torna procrastinar um modo de vício presente no seu dia a dia, resultando em stress, sentimento de culpa, perda de produtividade, frustração e vergonha em relação aos outros, por não cumprir com as suas responsabilidades e compromissos. O que acaba por comprometer diretamente a qualidade de vida do indivíduo.
-A técnica POMODORO é uma solução para esse problema, esta técnica foi criada para fazer do tempo um auxiliar do que queremos fazer e de como queremos fazer, baseado em intervalos de tempos curtos de foco em tarefas a serem realizadas intercaladas com tempos de descanso entre as mesmas.
 
+Atualmente é comum as pessoas sofrerem de algo conhecido por procrastinação, ou seja, deixar para depois, para outro momento. No geral é um comportamento corriqueiro muitas vezes considerado normal no que se diz respeito a prioridade de tarefas. Pela definição do dicionário procrastinação é o diferimento ou adiamento de uma ação, de forma geral, o cérebro humano se rende muito facilmente a esta maneira de se comportar pois tem sua preferência pela recompensa imediata, lutando com tarefas que embora se saiba que devem ser realizadas só prometem vantagens no futuro, para esforços que devem ser feitos agora. 
+Para a pessoa que torna procrastinar um modo de vício presente no seu dia a dia, resultando em stress, sentimento de culpa, perda de produtividade, frustração e vergonha em relação aos outros, por não cumprir com as suas responsabilidades e compromissos. O que acaba impactando diretamente a qualidade de vida do indivíduo.
+A técnica POMODORO é uma solução para esse problema, esta técnica foi criada para fazer do tempo um auxiliar do que queremos fazer e de como queremos fazer, baseado em intervalos de tempos curtos de foco em tarefas a serem realizadas intercaladas com tempos de descanso entre as mesmas. 
+Há a necessidade de uma ferramenta que viabilize a aplicação do método de gestão de tempo, ferramenta essa portátil e de fácil manuseio para que possa ser aplicada por profissionais de diversas áreas contribuindo assim para o bem estar do indivíduo bem como também da sociedade na qual ele está inserido.
 
 ## Objetivos
 
