@@ -15,6 +15,7 @@ Aplicativo móvel para registro de pomodoros.
 - Jefferson Rodrigues Lacerda
 - Ricardo Peixoto da Silva
 - Jaynne Polyana Nunes
+- Francisco Costa Ribbeiro
 
 ## Orientador
 
