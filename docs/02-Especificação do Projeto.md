@@ -79,15 +79,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| O App. deve conter um timer para utilizicacao da técnica pomodoro.| ALTA | 
+|RF-002| Usuario deve ter a autonomia de ajustar o timer conforme sua vontade | MÉDIA |
+|RF-003| Usuario podera montar uma lista de atividades para serem feitas | ALTA |
+|RF-004| Usuario tera acesso ao cronometo para monitorar tempo gasto na atividade | MÉDIA |
+|RF-005| Usuario pode editar, excluir e criar novas atividades conforme sua vontade| MÉDIA |
+|RF-006| Usuario ira fazer login usando sua conta google. | BAIXA|
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema sera feito para dispositivos moveis | ALTA | 
+|RNF-002| O app deve estar no repositorio oficial do time| ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -111,7 +114,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|02| App sera feito em PT-BR       |
+|02| Timer usara as medidas usadas no brasil HH:MM:SS  |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
