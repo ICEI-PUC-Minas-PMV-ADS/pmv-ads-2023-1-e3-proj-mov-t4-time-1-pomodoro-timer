@@ -131,16 +131,14 @@ O diagrama de casos de uso a seguir é um modelo gráfico com as descrições su
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+| ID     | RF-001 | RF-002 | RF-003 | RF-004 | RF-005 | RF-006 |
+|--------|--------|--------|--------|--------|--------|--------|
+| RF-001 | X      | x      |        |        |        |        |
+| RF-002 |        | X      |        |        |        |        |
+| RF-003 |        |        | X      |        | X      |        |
+| RF-004 | X      | X      |        | X      |        |        |
+| RF-005 |        |        |        |        | X      |        |
+| RF-006 |        |        |        |        |        | X      |
 
 
 # Gerenciamento de Projeto
