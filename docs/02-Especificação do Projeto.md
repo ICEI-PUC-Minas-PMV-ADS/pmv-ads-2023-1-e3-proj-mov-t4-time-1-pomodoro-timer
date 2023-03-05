@@ -111,12 +111,12 @@ O diagrama de casos de uso a seguir é um modelo gráfico com as descrições su
 
 | ID     | RF-001 | RF-002 | RF-003 | RF-004 | RF-005 | RF-006 |
 |--------|--------|--------|--------|--------|--------|--------|
-| RF-001 | X      | x      |        |        |        |        |
-| RF-002 |        | X      |        |        |        |        |
-| RF-003 |        |        | X      |        | X      |        |
-| RF-004 | X      | X      |        | X      |        |        |
-| RF-005 |        |        |        |        | X      |        |
-| RF-006 |        |        |        |        |        | X      |
+| Claudia| X      | X      |        |    X   | X      |        |
+| Pedro  | X      | X      | X      |        | x      |        |
+| Marcia | X      | X      | X      |        | X      |        |
+
+
+
 
 
 # Gerenciamento de Projeto
