@@ -126,7 +126,8 @@ O diagrama de casos de uso a seguir é um modelo gráfico com as descrições su
 De acordo com o PMBoK v6, há 10 áreas pilares para gerenciar projetos e que caracterizam a multidisciplinaridade envolvida: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições e Partes Interessadas.
 
 Para o desenvolvimento de projetos, é necessário considerar a gerência de todas essas áreas. Como tais áreas se complementam e estão diretamente relacionadas, não é possível examinar apenas uma área. Por exemplo, a ampliação do escopo de um projeto interfere também em seu cronograma e em seus custos.
-
+Para realizar esta etapa, a equipe utilizou o App Asana, plataforma de gerenciamento de trabalho com diversas ferramentas especializadas na construção de graficos e tabelas para gestão e rastreabilidade de trabalho . Desta forma, a equipe registrou as etapas do projeto, com suas respectivas datas, prioridades, status de atualização e membro responsável pela respectiva execução da tarefa, gerando assim, o gráfico de Gantt e o diagrama de rede, automaticamente. Também foi possível identificar as atividades concorrentes, o caminho crítico, dentre outros elementos. A equipe pode visualizar as tarefas que devem ser realizadas, organizando-as em hierarquia. 
+Link para acesso: https://app.asana.com/0/1204110935419662/list
 
 
 
@@ -136,17 +137,20 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Diagrama time - Gráfico de Gantt simples](https://user-images.githubusercontent.com/105467049/222971724-cf0c6476-28b5-4859-b615-ae8391d01c25.jpeg)
+![Diagrama time - Gráfico de Gantt simples](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/c5e41d24e8426f12655dfe941ec06eaaa12725e5/docs/img/gest%C3%A3o%20de%20tempo2.png)
 
 
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
 <br/>
-Esta sendo usado a ferramenta trello com um checklist.
-https://trello.com/b/KC4BhcLl/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer
+Conforme mencionado no item anterior, o Asana apresenta o detalhamento de cada sprint, com indicação de colaborar encarregado de cada tarefa e com atalho para comunicação com o mesmo facilitando tanto a gestão da equipe quanto a visualização do status de progressão das tarefas:
 
-![Captura de tela de 2023-03-05 13-03-40](https://user-images.githubusercontent.com/105467049/222971722-de7cabae-748e-4299-9fde-4669c538b252.png)
+![Quadro de tarefas e colaboradores responsaveis](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/c5e41d24e8426f12655dfe941ec06eaaa12725e5/docs/img/quadro%20de%20tarefas2.png)
+
+A plataforma támbem disponibiliza ferramentas de geração de paineis graficos automaticos que são preenchidos utilizando as informações registradas nas tabelas de gerenciamento, facilitando apresentações de andamento do projeto.
+
+![Paineis](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/c5e41d24e8426f12655dfe941ec06eaaa12725e5/docs/img/graficos%20de%20gest%C3%A3o2.png)
 
 
 ## Gestão de Orçamento
