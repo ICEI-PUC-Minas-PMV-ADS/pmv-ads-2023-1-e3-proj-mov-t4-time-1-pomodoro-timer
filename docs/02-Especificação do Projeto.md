@@ -8,18 +8,22 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Claudia Souza - 32 anos
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+- Secretaria
+- Obesa, hipertensa com problemas cardiovasculares utiliza o app para organizar sua lista de exercicios fisicos semanais e utiliza do timer para poder intervalar exercicios de baixa/alta intensidade. Por recomendações médicas, ele precisa desenvolver uma rotina de exercícios físicos, mas tem dificuldades em manter o foco e a motivação no processo. 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
+
+Pedro Silva - 17
+
+- Estudante
+- Diagnosticado com TDAH. É estudante do ensino médio e está estudando por conta própria para prestar vestibular. É sua primeira vez nesse processo e ele não sabe muito bem como distribuir seu foco e ter disciplina. Está procurando por aplicativos que ofereçam uma solução para o seu problema.
+
+Marcia Rodrigues - 26 
+- Concurseira 
+- Se formou recentemente no curso de Direito. Está estudando para concursos federais, cujas ementas são muito longas. Sabendo que ela precisa ser estratégica para gerenciar o seu tempo entre todas as matérias que precisa estudar, está a procura de ferramentas que ajudem nessa organização.
+
+
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
@@ -30,7 +34,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Concurseira  | Gerenciar o tempo de estudo de cada matéria    | Montar um cronograma de estudos    |
 |Aluno do ensino médio     | Ter mais foco e disciplina                 | Ser aprovado no vestibular|
-|Homem com problemas de coração    | Motivação e foco para manter a rotina de exercícios     | Cuidar de sua saúde|
+|Pessoa com problemas de coração    | Motivação e foco para manter a rotina de exercícios     | Cuidar de sua saúde|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
