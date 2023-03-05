@@ -167,7 +167,6 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 
 | Gasto Estimado                 | Valor                                                                                   |
 |--------------------------------|----------------------------------------------------------------------------------------------------------|
-
 | Recursos Humanos               |  R$ 20.000,00      |                                                                                 | | UX/UI                          |  R$ 15.000,00      |             
 | Desenvolvimento                |  R$ 92.000,00      |
 | Gestão de Projeto              |  R$ 5.000,00       | 
