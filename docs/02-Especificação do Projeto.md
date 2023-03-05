@@ -28,10 +28,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Aluno do ensino médio  | Listar as minhas tarefas           | Me organizar melhor e atingir meus objetivos      |
-|Concurseiro       | Cronometrar o tempo de estudo de cada matéria   | Montar um cronograma de estudo que caiba na minha rotina para ser aprovado no concurso.|
-|Universitário     | Ter mais foco e ser mais produtivo  | Ser aprovado nas matérias do curso |
-
+|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -167,4 +165,18 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+| Gasto Estimado                 | Valor                                                                                   |
+|--------------------------------|----------------------------------------------------------------------------------------------------------|
+
+| Recursos Humanos               |  R$ 20.000,00      |                                                                                 | | UX/UI                          |  R$ 15.000,00      |             
+| Desenvolvimento                |  R$ 92.000,00      |
+| Gestão de Projeto              |  R$ 5.000,00       | 
+| Infraestrutura                 |  R$ 12.000,00      |
+| Hardware                       |  R$ 20.000,00      |
+| Marketing		                    |  R$5.000,00        |
+| Cursos e treinamentos          |  R$ 5.400,00       |
+| Licenças de Softwares          |  R$ 10.000,00      |
+| Hospedagem	                    |  R$2.000,00        |  
+| **Total**                      |  **R$ 186.000,00** |
+
+
