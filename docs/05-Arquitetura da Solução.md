@@ -24,11 +24,10 @@ O Modelo ER apresentado abaixo representa através de um diagrama como as entida
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+O Esquema Relacional a seguir é a representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+ ![DiagramaEsquemaRelacionalPomodoroTimer04 ](https://user-images.githubusercontent.com/103853727/228359972-32ecf5eb-2a95-4a4c-a151-9f2bf97d7704.jpg)
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
 ## Modelo Físico
 
