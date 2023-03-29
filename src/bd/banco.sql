@@ -10,6 +10,6 @@ CREATE TABLE IF NOT EXISTS "tasks" (
   "user_id" INTEGER NOT NULL,
   "nome" VARCHAR(255) NOT NULL,
   "tempo" INTEGER NOT NULL,
-  "ativa" BOOLEAN NOT NULL DEFAULT false,
+  "ativa" BOOLEAN NOT NULL DEFAULT true,
   FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
 );
