@@ -52,13 +52,21 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+> - Deverar usar extensção prettier do vsCode para identação do codigo.
+> - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+>  - Sera utilizado eslink para verificação dos padroes de codigo.
+> - [Eslint](https://eslint.org/)
+> - Todo os componentes e telas devem estar em pastas separadas.
+> - src/components/componente1/Componente1.jsx & src/screens/home/Home.jsx
+> - arquivos components e eelas devem começar com letras MAIUSCULAS
+> - Padrao de import conforme es7
+> - [Import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import)
+> - Variaveis, let e const devem estar no padrao infixCaps.
+> - Exemplo: let firstName; const lastName;
+> - [PadroesCodigo](https://www.devmedia.com.br/padroes-de-codificacao/16529)
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
-
+[PomodoTimer](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer)   |
 > **Links Úteis**:
 >
 > - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
