@@ -39,7 +39,7 @@ Diagrama do fluxo do usuário antes do uso do aplicativo:
 
 
 Diagrama do fluxo do usuário com o uso do aplicativo proposto:
-![image](https://user-images.githubusercontent.com/103083123/228682987-7b753df3-02a6-4920-b426-d3b5aaddb122.png)
+![image](https://user-images.githubusercontent.com/103083123/228686514-af09f36a-abfa-4fe4-8ff6-bdbe03896691.png)
 
 
 ## Tecnologias Utilizadas
