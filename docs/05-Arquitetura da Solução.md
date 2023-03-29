@@ -34,6 +34,9 @@ O Esquema Relacional a seguir é a representação dos dados em tabelas juntamen
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
 ## Diagrama BPMN
+Diagrama do fluxo do usuário antes do uso do aplicativo:
+![image](https://user-images.githubusercontent.com/103083123/228686040-b8231b27-060e-4eea-9efe-3408cddbda7b.png)
+
 
 Diagrama do fluxo do usuário com o uso do aplicativo proposto:
 ![image](https://user-images.githubusercontent.com/103083123/228682987-7b753df3-02a6-4920-b426-d3b5aaddb122.png)
