@@ -33,6 +33,12 @@ O Esquema Relacional a seguir é a representação dos dados em tabelas juntamen
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
+## Diagrama BPMN
+
+Diagrama do fluxo do usuário com o uso do aplicativo proposto:
+![image](https://user-images.githubusercontent.com/103083123/228682987-7b753df3-02a6-4920-b426-d3b5aaddb122.png)
+
+
 ## Tecnologias Utilizadas
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
