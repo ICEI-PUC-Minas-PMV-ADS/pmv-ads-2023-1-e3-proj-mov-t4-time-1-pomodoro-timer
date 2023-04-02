@@ -24,6 +24,10 @@ O Modelo ER apresentado abaixo representa através de um diagrama como as entida
 O Esquema Relacional a seguir é a representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
  ![DiagramaEsquemaRelacionalPomodoroTimer04 ](https://user-images.githubusercontent.com/103853727/228359972-32ecf5eb-2a95-4a4c-a151-9f2bf97d7704.jpg)
+ 
+ ## Indicadores de Desempenho
+ 
+ ![Indicadores]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/9358df78500c39b45b18453b3fda161022a98772/docs/img/Indicadores%20de%20desempenho.png
 
 
 ## Modelo Físico
