@@ -18,7 +18,8 @@
 | **Critério de Êxito 2**  | Ao entrar na tela "Tarefas" do app, o usuário deve conseguir adicionar e excluir tarefa.
                                                                         	| 
 |  **Critérios de Êxito  3**  | Na página "Tarefas" as tarefas são salvas no dispositivo.                                                                                                	| 
-|  **Critérios de Êxito 4**  |Clicando no ícone de status  as tarefa criada pelo usuário deve mostrar as opções: “concluída”, “em andamento” ou “por fazer” quando clicada.                                                                                                   	|   
+|  **Critérios de Êxito 4**  |Clicando no ícone de status  as tarefa criada pelo usuário deve mostrar as opções: “concluída”, “em andamento” ou “por fazer” quando clicada.  
+ |   
 
 
 | **Caso de Teste**  | CT03 - Página Cronômetro                                                                                                                                                                                                        	| 
