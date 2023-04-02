@@ -10,10 +10,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
-
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+![Classe UML - Classe UML](https://user-images.githubusercontent.com/103431797/228698187-9bbd652c-43d3-4623-87b0-45d19de5e9c6.jpeg)
 
 ## Modelo ER
 
@@ -27,6 +24,10 @@ O Modelo ER apresentado abaixo representa através de um diagrama como as entida
 O Esquema Relacional a seguir é a representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
  
  ![DiagramaEsquemaRelacionalPomodoroTimer04 ](https://user-images.githubusercontent.com/103853727/228359972-32ecf5eb-2a95-4a4c-a151-9f2bf97d7704.jpg)
+ 
+ ## Indicadores de Desempenho
+ 
+ ![Indicadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/b8bc5c10db5969cb308873406f20c189718b2570/docs/img/indicadores3.jpg)
 
 
 ## Modelo Físico
