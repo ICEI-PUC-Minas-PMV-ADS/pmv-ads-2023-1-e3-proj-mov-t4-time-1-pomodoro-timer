@@ -27,7 +27,7 @@ O Esquema Relacional a seguir é a representação dos dados em tabelas juntamen
  
  ## Indicadores de Desempenho
  
- ![Indicadores]https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/9358df78500c39b45b18453b3fda161022a98772/docs/img/Indicadores%20de%20desempenho.png
+ ![Indicadores](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/blob/9358df78500c39b45b18453b3fda161022a98772/docs/img/Indicadores%20de%20desempenho.png)
 
 
 ## Modelo Físico
