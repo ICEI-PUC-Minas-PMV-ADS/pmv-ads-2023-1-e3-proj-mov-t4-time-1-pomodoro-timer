@@ -1,7 +1,7 @@
 # Plano de Testes de Software
 
 | **Caso de Teste**  | CT01 - Inicialização do aplicativo                                                                                                                                                                                                	| 
-| ------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| --------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
 | **Requisitos Associados** | A Página Inicial do app deverá constar o requisito funcional estipulados na tabela de requisitos ( RF-06,) para que o Caso de Teste "Página Inicial" seja completado com sucesso. | 
 |  **Objetivo do Teste**  | Verificar se a página inicial da aplicação permite o login do usuário  com a conta google cadastrada                                                          	| 
 |  **Passos Principais** | 1) Acessar o Aplicativo "Pomodoro Timer". <br> 2) Realizar o login com o acesso da conta Google cadastrada. <br> 3) Visualizar a página principal.                                                                                       	 
