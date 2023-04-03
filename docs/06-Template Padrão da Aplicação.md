@@ -4,6 +4,12 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+
+<img width="5488" alt="POMODORO TIMER" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/ba8194ae13e1111dee58be3a71ff7641b3a43a2d/docs/img/wifreframe-01.jpeg">
+<img width="5488" alt="POMODORO TIMER" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/ba8194ae13e1111dee58be3a71ff7641b3a43a2d/docs/img/wireframe-02.jpeg">
+<img width="5488" alt="POMODORO TIMER" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/ba8194ae13e1111dee58be3a71ff7641b3a43a2d/docs/img/wireframe-03.jpeg">
+
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
