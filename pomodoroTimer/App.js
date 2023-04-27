@@ -1,5 +1,5 @@
-import { StyleSheet, TextInput, Button ,Text, View} from "react-native";
-import { TaskList } from "./components/TaskList";
+import { StyleSheet, TextInput, Button, Text, View } from "react-native";
+import { TaskList } from "./components/tasks/TaskList";
 import { tasks } from "./data/tasks";
 
 export default function App() {
@@ -12,9 +12,9 @@ export default function App() {
         darkColor="rgba(255,255,255,0.1)"
       />
       <TaskList tasks={tasks} />
-      <View style={styles.textRow} >
+      <View style={styles.textRow}>
         <TextInput style={styles.input} placeholder="Digite uma tarefa" />
-        <Button title="Adicionar"/>
+        <Button title="Adicionar" />
       </View>
     </View>
   );
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    paddingBottom: 30,
-    paddingTop: 40,
+    paddingBottom: "15%",
+    paddingTop: "15%",
   },
   title: {
     fontSize: 28,
