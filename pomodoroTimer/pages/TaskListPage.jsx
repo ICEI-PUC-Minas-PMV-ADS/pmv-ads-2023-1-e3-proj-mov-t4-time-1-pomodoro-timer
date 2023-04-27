@@ -1,6 +1,6 @@
 import { StyleSheet, TextInput, Button ,Text, View} from "react-native";
 import { tasks } from "../data/tasks";
-import { TaskList } from "../components/TaskList";
+import { TaskList } from "../components/tasks/TaskList";
 
 export default function TaskListPage() {
   return (
@@ -25,7 +25,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    paddingBottom: 30
+    paddingBottom: "15%",
+    paddingTop: "15%"
   },
   title: {
     fontSize: 28,
