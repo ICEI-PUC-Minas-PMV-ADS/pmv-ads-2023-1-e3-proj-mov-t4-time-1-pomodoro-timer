@@ -1,6 +1,7 @@
-import { StyleSheet, TextInput, Button ,Text, View} from "react-native";
+import { StyleSheet, TextInput, Button, Text, View } from "react-native";
 import { tasks } from "../data/tasks";
 import { TaskList } from "../components/tasks/TaskList";
+import { addTask } from "../utils/taskController";
 
 export default function TaskListPage() {
   return (
@@ -12,9 +13,15 @@ export default function TaskListPage() {
         darkColor="rgba(255,255,255,0.1)"
       />
       <TaskList tasks={tasks} />
-      <View style={styles.textRow} >
-        <TextInput style={styles.input} placeholder="Digite uma tarefa" />
-        <Button title="Adicionar"/>
+      <View style={styles.textRow}>
+        <TextInput
+          onSubmitEditing={(event) => {
+            addTask(event.nativeEvent.text)
+          }}
+          style={styles.input}
+          placeholder="Digite uma tarefa"
+        />
+        <Button title="Adicionar" />
       </View>
     </View>
   );
@@ -26,7 +33,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     paddingBottom: "15%",
-    paddingTop: "15%"
+    paddingTop: "15%",
   },
   title: {
     fontSize: 28,
