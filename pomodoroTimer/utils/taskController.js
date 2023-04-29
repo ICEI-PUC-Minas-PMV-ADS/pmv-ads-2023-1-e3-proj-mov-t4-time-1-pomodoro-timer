@@ -17,16 +17,20 @@ export const updateCurrentTasks = async (tasks) => {
   await AsyncStorage.setItem("currentTasks", parsedTasks);
 };
 
-export const addTask = (message) => {
-  const lastId = tasks[tasks.length - 1];
+export const addTask = async (message) => {
+  const tasks = await getCurrentTasks();
+  const lastId = tasks[tasks.length - 1]?.id || 0;
   const id = lastId + 1;
   const newTask = {
     id,
-    message: message,
+    nome: message,
     userId: 1,
-    done: false,
+    ativa: true,
   };
   tasks.push(newTask);
+  const parsedTasks = JSON.stringify(tasks);
+  await AsyncStorage.setItem("currentTasks", parsedTasks);
+  return tasks; // return the updated task list
 };
 
 export const markTaskAsDone = (taskId) => {};
