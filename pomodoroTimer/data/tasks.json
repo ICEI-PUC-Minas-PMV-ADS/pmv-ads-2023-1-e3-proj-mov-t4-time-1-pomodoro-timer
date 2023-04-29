@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "nome": "Tarefa 1",
+      "ativa": true
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "nome": "Tarefa 2",
+      "ativa": true
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "nome": "Tarefa 3",
+      "ativa": true
+    }
+  ]
+}
