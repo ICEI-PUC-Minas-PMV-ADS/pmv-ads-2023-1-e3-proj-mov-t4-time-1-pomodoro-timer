@@ -1,5 +1,4 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { tasks as defaultTasks } from "../data/tasks";
 
 export const getCurrentTasks = async () => {
   try {
