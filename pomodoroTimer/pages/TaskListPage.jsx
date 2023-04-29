@@ -1,9 +1,25 @@
 import { StyleSheet, TextInput, Button, Text, View } from "react-native";
-import { tasks } from "../data/tasks";
+import { tasks as defaultTasks } from "../data/tasks";
 import { TaskList } from "../components/tasks/TaskList";
 import { addTask } from "../utils/taskController";
 
+import { getCurrentTasks } from "../utils/taskController";
+import { useEffect, useState } from "react";
+
 export default function TaskListPage() {
+  const [tasks, setTasks] = useState([]);
+  useEffect(() => {
+    const fetchTasks = async () => {
+      try {
+        const fetchedTasks = await getCurrentTasks();
+        const tasks = fetchedTasks == [] ? fetchedTasks : defaultTasks;
+        setTasks(tasks);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+    fetchTasks();
+  });
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Lista de tarefas</Text>
@@ -16,7 +32,7 @@ export default function TaskListPage() {
       <View style={styles.textRow}>
         <TextInput
           onSubmitEditing={(event) => {
-            addTask(event.nativeEvent.text)
+            addTask(event.nativeEvent.text);
           }}
           style={styles.input}
           placeholder="Digite uma tarefa"
