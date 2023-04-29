@@ -22,7 +22,7 @@ export const addTask = (message) => {
   const lastId = tasks[tasks.length - 1];
   const id = lastId + 1;
   const newTask = {
-    id: lastId,
+    id,
     message: message,
     userId: 1,
     done: false,
