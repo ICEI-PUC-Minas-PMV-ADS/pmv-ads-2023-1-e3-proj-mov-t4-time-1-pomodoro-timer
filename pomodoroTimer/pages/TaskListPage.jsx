@@ -1,5 +1,5 @@
 import { StyleSheet, TextInput, Button, Text, View } from "react-native";
-import { tasks as defaultTasks } from "../data/tasks";
+import defaultTasks from "../data/tasks";
 import { TaskList } from "../components/tasks/TaskList";
 
 import {
@@ -9,17 +9,16 @@ import {
 } from "../utils/taskController";
 import { useEffect, useState } from "react";
 
-
-
 export default function TaskListPage() {
-  const [tasks, setTasks] = useState([]);
+  let [tasks, setTasks] = useState([]);
+  let [newTask, setNewTask] = useState("");
   useEffect(() => {
     const fetchTasks = async () => {
       try {
         const fetchedTasks = await getCurrentTasks();
-        const tasks = fetchedTasks == [] ? fetchedTasks : defaultTasks;
-        console.log("fetched", fetchedTasks);
-        setTasks(tasks);
+        const initialTasks = fetchedTasks == [] ? defaultTasks : fetchedTasks;
+        console.log("fetched", initialTasks);
+        setTasks(initialTasks);
       } catch (e) {
         console.log(e);
       }
@@ -35,11 +34,14 @@ export default function TaskListPage() {
         darkColor="rgba(255,255,255,0.1)"
       />
       <TaskList tasks={tasks} />
-      <View style={styles.textRow}>
+      <View style={styles.submitRow}>
         <TextInput
+          onChange={(event) => {
+            let text = event.nativeEvent.text;
+            setNewTask(text);
+          }}
           onSubmitEditing={(event) => {
             addTask(event.nativeEvent.text).then((updatedTasks) => {
-              console.log("onSubmit", updatedTasks);
               setTasks(updatedTasks);
               updateCurrentTasks(updatedTasks);
             });
@@ -47,7 +49,15 @@ export default function TaskListPage() {
           style={styles.input}
           placeholder="Digite uma tarefa"
         />
-        <Button title="Adicionar" />
+        <Button
+          onPress={() => {
+            addTask(newTask).then((updatedTasks) => {
+              setTasks(updatedTasks);
+              updateCurrentTasks(updatedTasks);
+            });
+          }}
+          title="Adicionar"
+        />
       </View>
     </View>
   );
@@ -70,7 +80,7 @@ const styles = StyleSheet.create({
     height: 1,
     width: "80%",
   },
-  textRow: {
+  submitRow: {
     flexDirection: "row",
     gap: 10,
   },
@@ -82,5 +92,6 @@ const styles = StyleSheet.create({
     paddingRight: 20,
     padding: 10,
     fontSize: 20,
+    width: "60%"
   },
 });

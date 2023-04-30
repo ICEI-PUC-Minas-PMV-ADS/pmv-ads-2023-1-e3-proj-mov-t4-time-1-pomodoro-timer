@@ -2,10 +2,10 @@ import { StyleSheet,Text, View } from "react-native";
 import Checkbox from "./Checkbox";
 
 export const Task = (props) => {
-  const { id, nome } = props;
+  const { id, nome, ativa } = props;
   return (
     <View style={styles.container}>
-      <Checkbox/>
+      <Checkbox previousState={ativa} taskId={id}/>
       <Text style={styles.text}>{nome}</Text>
     </View>
   );
@@ -16,10 +16,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   container: {
-    flex: 0.1,
     flexDirection: "row",
     gap: 10,
-    alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
+    marginBottom: 15, 
   },
 });

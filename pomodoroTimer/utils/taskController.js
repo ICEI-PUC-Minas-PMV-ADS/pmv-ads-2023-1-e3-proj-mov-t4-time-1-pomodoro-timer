@@ -30,9 +30,14 @@ export const addTask = async (message) => {
   tasks.push(newTask);
   const parsedTasks = JSON.stringify(tasks);
   await AsyncStorage.setItem("currentTasks", parsedTasks);
-  return tasks; // return the updated task list
+  return tasks;
 };
 
-export const markTaskAsDone = (taskId) => {};
+export const updateDoneState = async (taskId) => {
+  const tasks = await getCurrentTasks();
+  const task = tasks.find((task) => task.id === taskId);
+  task.ativa = !task.ativa;
+  updateCurrentTasks(tasks);
+};
 
 export const deleteTask = (taskId) => {};

@@ -1,19 +1,12 @@
-import { StyleSheet, Text, View  } from "react-native";
+import { View  } from "react-native";
 import { Task } from "./Task";
 
 export const TaskList = (tasks) => {
-  const activeTasks = tasks.tasks.filter((task) => task.ativa);
   return (
-    <View style={styles.container}>
-      {activeTasks.map((task) => {
-        return <Task id={task.id} nome={task.nome} key={task.id}/>;
+    <View>
+      {tasks.tasks.map((task) => {
+        return <Task id={task.id} nome={task.nome} ativa={task.ativa} key={task.id}/>;
       })}
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-    container: {
-      alignSelf: 'center',
-    },
-  });
