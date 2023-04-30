@@ -1,5 +1,5 @@
 import { StyleSheet, TextInput, Button, Text, View } from "react-native";
-import { tasks as defaultTasks } from "../data/tasks";
+import defaultTasks from "../data/tasks";
 import { TaskList } from "../components/tasks/TaskList";
 
 import {
