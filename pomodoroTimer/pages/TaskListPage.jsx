@@ -16,6 +16,7 @@ export default function TaskListPage() {
       try {
         const fetchedTasks = await getCurrentTasks();
         const initialTasks = fetchedTasks == [] ? defaultTasks : fetchedTasks;
+        // updateCurrentTasks(defaultTasks);
         console.log("fetched", initialTasks);
         setTasks(initialTasks);
       } catch (e) {
@@ -33,7 +34,7 @@ export default function TaskListPage() {
         darkColor="rgba(255,255,255,0.1)"
       />
       <TaskList tasks={tasks} />
-      <View style={styles.textRow}>
+      <View style={styles.submitRow}>
         <TextInput
           onSubmitEditing={(event) => {
             addTask(event.nativeEvent.text).then((updatedTasks) => {
@@ -68,7 +69,7 @@ const styles = StyleSheet.create({
     height: 1,
     width: "80%",
   },
-  textRow: {
+  submitRow: {
     flexDirection: "row",
     gap: 10,
   },

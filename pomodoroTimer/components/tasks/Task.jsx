@@ -16,10 +16,9 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   container: {
-    flex: 0.1,
     flexDirection: "row",
     gap: 10,
-    alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
+    marginBottom: 15, 
   },
 });
