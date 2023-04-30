@@ -11,12 +11,12 @@ import { useEffect, useState } from "react";
 
 export default function TaskListPage() {
   let [tasks, setTasks] = useState([]);
+  let [newTask, setNewTask] = useState("");
   useEffect(() => {
     const fetchTasks = async () => {
       try {
         const fetchedTasks = await getCurrentTasks();
         const initialTasks = fetchedTasks == [] ? defaultTasks : fetchedTasks;
-        // updateCurrentTasks(defaultTasks);
         console.log("fetched", initialTasks);
         setTasks(initialTasks);
       } catch (e) {
@@ -36,6 +36,10 @@ export default function TaskListPage() {
       <TaskList tasks={tasks} />
       <View style={styles.submitRow}>
         <TextInput
+          onChange={(event) => {
+            let text = event.nativeEvent.text;
+            setNewTask(text);
+          }}
           onSubmitEditing={(event) => {
             addTask(event.nativeEvent.text).then((updatedTasks) => {
               console.log("onSubmit", updatedTasks);
@@ -46,7 +50,16 @@ export default function TaskListPage() {
           style={styles.input}
           placeholder="Digite uma tarefa"
         />
-        <Button title="Adicionar" />
+        <Button
+          onPress={() => {
+            addTask(newTask).then((updatedTasks) => {
+              console.log("onSubmit", updatedTasks);
+              setTasks(updatedTasks);
+              updateCurrentTasks(updatedTasks);
+            });
+          }}
+          title="Adicionar"
+        />
       </View>
     </View>
   );

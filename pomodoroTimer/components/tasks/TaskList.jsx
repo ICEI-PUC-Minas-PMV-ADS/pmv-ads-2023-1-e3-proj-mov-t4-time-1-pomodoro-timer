@@ -11,9 +11,3 @@ export const TaskList = (tasks) => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-    container: {
-      alignSelf: 'center',
-    },
-  });
