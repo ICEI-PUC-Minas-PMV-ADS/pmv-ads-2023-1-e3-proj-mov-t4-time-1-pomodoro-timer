@@ -9,17 +9,15 @@ import {
 } from "../utils/taskController";
 import { useEffect, useState } from "react";
 
-
-
 export default function TaskListPage() {
-  const [tasks, setTasks] = useState([]);
+  let [tasks, setTasks] = useState([]);
   useEffect(() => {
     const fetchTasks = async () => {
       try {
         const fetchedTasks = await getCurrentTasks();
-        const tasks = fetchedTasks == [] ? fetchedTasks : defaultTasks;
-        console.log("fetched", fetchedTasks);
-        setTasks(tasks);
+        const initialTasks = fetchedTasks == [] ? defaultTasks : fetchedTasks;
+        console.log("fetched", initialTasks);
+        setTasks(initialTasks);
       } catch (e) {
         console.log(e);
       }
