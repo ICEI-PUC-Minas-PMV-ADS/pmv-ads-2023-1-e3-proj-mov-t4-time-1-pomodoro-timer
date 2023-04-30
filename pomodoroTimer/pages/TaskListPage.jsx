@@ -42,7 +42,6 @@ export default function TaskListPage() {
           }}
           onSubmitEditing={(event) => {
             addTask(event.nativeEvent.text).then((updatedTasks) => {
-              console.log("onSubmit", updatedTasks);
               setTasks(updatedTasks);
               updateCurrentTasks(updatedTasks);
             });
@@ -53,7 +52,6 @@ export default function TaskListPage() {
         <Button
           onPress={() => {
             addTask(newTask).then((updatedTasks) => {
-              console.log("onSubmit", updatedTasks);
               setTasks(updatedTasks);
               updateCurrentTasks(updatedTasks);
             });

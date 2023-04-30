@@ -33,6 +33,12 @@ export const addTask = async (message) => {
   return tasks;
 };
 
-export const markTaskAsDone = (taskId) => {};
+export const updateDoneState = async (taskId) => {
+  console.log(taskId)
+  const tasks = await getCurrentTasks();
+  const task = tasks.find((task) => task.id === taskId);
+  task.ativa = !task.ativa;
+  updateCurrentTasks(tasks);
+};
 
 export const deleteTask = (taskId) => {};
