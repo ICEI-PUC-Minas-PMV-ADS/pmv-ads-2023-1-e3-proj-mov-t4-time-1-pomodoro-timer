@@ -34,7 +34,6 @@ export const addTask = async (message) => {
 };
 
 export const updateDoneState = async (taskId) => {
-  console.log(taskId)
   const tasks = await getCurrentTasks();
   const task = tasks.find((task) => task.id === taskId);
   task.ativa = !task.ativa;

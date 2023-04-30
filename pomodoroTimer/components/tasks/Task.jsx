@@ -3,7 +3,6 @@ import Checkbox from "./Checkbox";
 
 export const Task = (props) => {
   const { id, nome, ativa } = props;
-  console.log(id)
   return (
     <View style={styles.container}>
       <Checkbox previousState={ativa} taskId={id}/>

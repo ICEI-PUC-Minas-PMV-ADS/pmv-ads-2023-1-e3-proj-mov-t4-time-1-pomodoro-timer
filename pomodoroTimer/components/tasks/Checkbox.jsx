@@ -6,7 +6,6 @@ const Checkbox = (props) => {
   const { previousState, taskId } = props;
   const [isChecked, setIsChecked] = useState(!previousState);
 
-  console.log("componente", taskId);
   const handleToggle = () => {
     updateDoneState(taskId);
     setIsChecked(!isChecked);
