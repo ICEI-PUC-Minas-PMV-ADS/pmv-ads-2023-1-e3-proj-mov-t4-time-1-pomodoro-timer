@@ -94,5 +94,6 @@ const styles = StyleSheet.create({
     paddingRight: 20,
     padding: 10,
     fontSize: 20,
+    width: "60%"
   },
 });
