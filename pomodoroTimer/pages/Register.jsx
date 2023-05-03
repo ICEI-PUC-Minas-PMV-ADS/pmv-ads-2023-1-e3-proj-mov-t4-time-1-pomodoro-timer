@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-export default function CadastroScreen() {
+export default function CadastroScreen({navigation}) {
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
@@ -44,7 +44,7 @@ export default function CadastroScreen() {
 
       <TouchableOpacity
         style={styles.buttonCadastro}
-        onPress={() => Cadastro()}
+        onPress={() => navigation.navigate('TaskList')}
       >
         <Text style={{ color: "white", textAlign: "center" }}> Cadastrar </Text>
       </TouchableOpacity>

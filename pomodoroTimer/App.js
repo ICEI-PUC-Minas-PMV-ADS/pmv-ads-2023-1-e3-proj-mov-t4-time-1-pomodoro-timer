@@ -11,7 +11,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Register" component={CadastroScreen} />
-        <Stack.Screen name="Home" component={TaskListPage} />
+        <Stack.Screen name="TaskList" component={TaskListPage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
