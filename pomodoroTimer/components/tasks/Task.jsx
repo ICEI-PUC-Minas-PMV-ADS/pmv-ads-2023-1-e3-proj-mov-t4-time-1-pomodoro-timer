@@ -1,5 +1,6 @@
 import { StyleSheet,Text, View } from "react-native";
 import Checkbox from "./Checkbox";
+import { BinSvg } from "./BinSvg";
 
 export const Task = (props) => {
   const { id, nome, ativa } = props;
@@ -7,6 +8,7 @@ export const Task = (props) => {
     <View style={styles.container}>
       <Checkbox previousState={ativa} taskId={id}/>
       <Text style={styles.text}>{nome}</Text>
+      <BinSvg/>
     </View>
   );
 };
