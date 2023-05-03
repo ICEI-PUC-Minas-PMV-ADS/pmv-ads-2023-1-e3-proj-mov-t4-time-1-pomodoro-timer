@@ -33,7 +33,7 @@ export default function TaskListPage() {
         lightColor="#eee"
         darkColor="rgba(255,255,255,0.1)"
       />
-      <TaskList tasks={tasks} />
+      <TaskList setTasks={setTasks} tasks={tasks} />
       <View style={styles.submitRow}>
         <TextInput
           onChange={(event) => {
@@ -68,8 +68,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    paddingBottom: "15%",
-    paddingTop: "15%",
+    padding: "15%",
   },
   title: {
     fontSize: 28,
@@ -92,6 +91,6 @@ const styles = StyleSheet.create({
     paddingRight: 20,
     padding: 10,
     fontSize: 20,
-    width: "60%"
+    width: "60%",
   },
 });

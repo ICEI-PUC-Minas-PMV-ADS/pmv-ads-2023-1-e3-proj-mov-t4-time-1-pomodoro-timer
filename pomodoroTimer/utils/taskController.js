@@ -40,4 +40,8 @@ export const updateDoneState = async (taskId) => {
   updateCurrentTasks(tasks);
 };
 
-export const deleteTask = (taskId) => {};
+export const deleteTask = async (taskId) => {
+  const tasks = await getCurrentTasks();
+  const newTasks = tasks.filter((task) => task.id !== taskId);
+  return newTasks;
+};
