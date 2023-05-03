@@ -19,10 +19,10 @@ export default function CadastroScreen() {
 
   return (
     <View style={styles.container}>
-      {/* <Image
+      <Image
         style={{ width: 100, height: 100 }}
-        source={require("./assets/pomodoro.png")}
-      /> */}
+        source={require("../assets/pomodoro.png")}
+      />
       <Text style={styles.title}>Criar Conta</Text>
 
       <TextInput
