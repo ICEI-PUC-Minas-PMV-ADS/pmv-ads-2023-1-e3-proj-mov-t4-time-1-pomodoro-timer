@@ -19,8 +19,9 @@ const styles = StyleSheet.create({
   },
   container: {
     flexDirection: "row",
-    gap: 10,
+    gap: 5,
     justifyContent: "flex-start",
     marginBottom: 15, 
+    marginRight: 30,
   },
 });
