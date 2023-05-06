@@ -1,11 +1,5 @@
-# Instruções de utilização
+# PomodoroTimer
 
-## Instalação do Site
+Aplicativo de contagem de tempo baseado em pomodoros, desenvolvido para apresentação na disciplina de Projetos de uma aplicação móvel em um ambiente de negocio. Tuma 4 grupo 1.
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
-
-## Histórico de versões
-
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+Professor orientador Mateus Cursino De Lima

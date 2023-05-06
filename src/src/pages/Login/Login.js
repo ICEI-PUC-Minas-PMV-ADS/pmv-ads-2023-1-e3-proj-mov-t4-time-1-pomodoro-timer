@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Image, TouchableOpacity } from 'react-native';
 import styles from './styles'; 
-import { fetchUsuario } from '../../api/api'
+import { fetchUsuario, loginUsuario } from '../../api/api'
+
 
 export default function Login({ navigation }) {
   const [email, setEmail] = useState('');
@@ -15,6 +16,16 @@ export default function Login({ navigation }) {
     setTimeout(() => setUsuarioValido(''), 3000);
   }
 
+const login = () => {
+loginUsuario(email, senha).then((status) => {
+      if (status === 200) {
+      navigation.navigate('Tarefas')
+    } else {
+      setUsuarioValido('Usuário ou senha invalido !')
+    }
+});
+}
+
 const Logar = () => fetchUsuario()
    .then(resultado => resultado.json())
    .then(resultado => resolverUsuario(resultado))
@@ -27,11 +38,11 @@ const Cadastrar = () => navigation.navigate('Cadastro')
       <Text style={styles.title}>Login</Text>
       <TextInput placeholder= "E-mail" style={styles.input} onChangeText={text=>setEmail(text)} />
       <TextInput secureTextEntry={true} placeholder= "Senha" style={styles.input} onChangeText={text=>setSenha(text)} />
-      <TouchableOpacity style={styles.buttonLogin} onPress={()=>Logar()}>
+      <TouchableOpacity style={styles.buttonLogin} onPress={()=>login(email, senha)}>
         <Text style={{color:'white', textAlign: 'center'}}> Login </Text>
       </TouchableOpacity>
       <TouchableOpacity style={{margin:'10px'}} onPress={()=>Cadastrar()}>
-        <Text style={{color:'black', textAlign: 'center'}}> Faça cadastro para continuar </Text>
+        <Text style={{color:'gray', textAlign: 'center'}}> Ou faça cadastro para continuar </Text>
       </TouchableOpacity>
         <TouchableOpacity style={{margin:'0px'}} onPress={()=>Cadastrar()}>
         <Text style={{color:'red', textAlign: 'center'}}> {usuarioValido} </Text>
