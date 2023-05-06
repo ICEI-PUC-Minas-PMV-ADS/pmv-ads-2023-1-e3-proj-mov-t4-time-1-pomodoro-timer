@@ -13,7 +13,7 @@
 | ------------------- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
 | **Requisitos Associados** | A Página To-do do app deverá constar os Requisitos funcionais estipulados na tabela de requisitos (RF-003 eRF-05) para que o Caso de Teste "Página de Tarefas" seja completado com sucesso. | 
 |  **Objetivo do Teste**  | Verificar se a página "Tarefas" da aplicação corresponde aos requisitos.                                                                                                                      	| 
-|  **Passos Principais** | 1) Acessar o Aplicativo "Pomodoro Timer". <br> 2) Realizar o login com o acesso do Google cadastrado pelo usuário.  <br> 3) Visualizar a página principal.   <br> 4) Clicar em "Tarefas".                  	| 
+|  **Passos Principais** | 1) Acessar o Aplicativo "Pomodoro Timer". <br> 2) Realizar o login com o acesso cadastrado pelo usuário.  <br> 3) Visualizar a página principal.   <br> 4) Clicar em "Tarefas".                  	| 
 |  **Critérios de Êxito 1**  | Ao clicar no botão "Tarefas", deverá ser acessada a página "Tarefas" do aplicativo.                                                                                                             	| 
 | **Critério de Êxito 2**  | Ao entrar na tela "Tarefas" do app, o usuário deve conseguir adicionar e excluir tarefa.                                                    |
 | **Critérios de Êxito  3**  | Na página "Tarefas" as tarefas são salvas no dispositivo. |     
