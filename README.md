@@ -45,6 +45,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
+<a href="https://snack.expo.dev/@pomodoropuc04/pomodoro_login_cadastro_tarefas"> **Snack do projeto na expo** </a>
+
 <li><a href="src/README.md"> Código Fonte</a></li>
 
 # Apresentação
