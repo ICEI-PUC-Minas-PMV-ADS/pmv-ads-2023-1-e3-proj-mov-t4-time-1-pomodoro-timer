@@ -23,7 +23,8 @@ Aplicativo móvel para registro de pomodoros.
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Acesse ao snack do projeto e inicie o mesmo.
+<a href="https://snack.expo.dev/@pomodoropuc04/pomodoro_login_cadastro_tarefas"> **Clique aqui** </a>
 
 # Documentação
 
