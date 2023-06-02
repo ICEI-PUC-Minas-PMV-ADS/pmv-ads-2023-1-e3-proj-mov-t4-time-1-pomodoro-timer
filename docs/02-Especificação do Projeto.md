@@ -57,12 +57,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O App. deve conter um timer para utilizicacao da técnica pomodoro.| ALTA | 
-|RF-002| Usuario deve ter a autonomia de ajustar o timer conforme sua vontade | MÉDIA |
-|RF-003| Usuario podera montar uma lista de atividades para serem feitas | ALTA |
-|RF-004| Usuario tera acesso ao cronometo para monitorar tempo gasto na atividade | MÉDIA |
-|RF-005| Usuario pode editar, excluir e criar novas atividades conforme sua vontade| MÉDIA |
-|RF-006| Usuario ira fazer login usando sua conta google. | BAIXA|
+|RF-001| O App deve conter um timer para utilizicacao da técnica pomodoro.| ALTA | 
+|RF-002| Usuario podera montar uma lista de atividades para serem feitas | ALTA |
+|RF-003| Usuario pode editar, excluir e criar novas atividades conforme sua vontade| MÉDIA |
+|RF-004| Usuario tera que fazer cadastro e login para usar o App. | MÉDIA |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
