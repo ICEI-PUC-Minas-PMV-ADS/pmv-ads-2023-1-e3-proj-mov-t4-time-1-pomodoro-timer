@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "userId": 1,
+      "nome": "Minha primeira tarefa!",
+      "ativa": true
+    }
+  ]
+}

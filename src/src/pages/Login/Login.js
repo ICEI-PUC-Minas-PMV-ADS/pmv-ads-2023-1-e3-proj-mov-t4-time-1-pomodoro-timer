@@ -12,14 +12,16 @@ export default function Login({ navigation }) {
   const resolverUsuario = (users) => {
     result = users.find(user => user.email === email && user.password === senha)
     result === undefined && setUsuarioValido('Usuário ou senha invalido !')
-    result != undefined && navigation.navigate('Tarefas')
+    result != undefined && navigation.navigate('Home')
     setTimeout(() => setUsuarioValido(''), 3000);
   }
+// usuário válido: Harold_Buckridge@gmail.com
+// senha: YfHSxuernTZ4197
 
 const login = () => {
 loginUsuario(email, senha).then((status) => {
       if (status === 200) {
-      navigation.navigate('Tarefas')
+      navigation.navigate('Home')
     } else {
       setUsuarioValido('Usuário ou senha invalido !')
     }
