@@ -51,6 +51,7 @@ Acesse ao snack do projeto e inicie o mesmo.
 <li><a href="src/README.md"> Código Fonte</a></li>
 
 # Apresentação
-https://user-images.githubusercontent.com/105467049/236649085-4972001b-a8b6-4921-9907-9e0621547499.mp4
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer/assets/103431797/fa3f2398-8dbb-4bee-9233-4f2d1e0150d6
+
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
