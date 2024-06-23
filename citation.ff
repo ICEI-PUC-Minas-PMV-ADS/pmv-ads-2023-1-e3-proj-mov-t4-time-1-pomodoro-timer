@@ -1,0 +1,26 @@
+Please cite this software using these metadata.
+title: Pomodoro Timer 
+authors:
+  - family-names: Carolina do Carmo Vaz
+    given-names: Ana
+  - family-names: Damasceno Pinto
+    given-names: Lucas
+  - family-names: Rodrigues Lacerda
+    given-names: Jefferson
+  - family-names: Peixoto da Silva
+    given-names: Ricardo
+  - family-names: Polyana Nunes
+    given-names: Jaynne
+  - family-names: Costa Ribeiro
+    given-names: Francisco
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Curcino de Lima
+    given-names: Mateus
+keywords:
+  - Tecnologia
+  - Pomodoro
+  - Timer
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-time-1-pomodoro-timer
+version: 1.0.0
+date-released: 2024-06-23
